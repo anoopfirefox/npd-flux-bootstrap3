@@ -8,6 +8,6 @@ spec:
   address: https://slack.com/api/chat.postMessage
   channel: flux-alerts-channel
   secretRef:
-    name: slact-bot-token
+    name: slack-bot-token
   type: slack
   username: flux-bot
